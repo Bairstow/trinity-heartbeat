@@ -1,0 +1,24 @@
+{
+  "name": "trinity-heartbeat",
+  "version": "1.0.0",
+  "description": "- Setup speedtest-cli tool from https://github.com/sivel/speedtest-cli - (Likely `pip install speedtest-cli`) - Update the log-monitoring script PATH definition to the install location - (Likely `/home/pi/.local/bin`)",
+  "main": "log-monitoring.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bairstow/trinity-heartbeat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bairstow/trinity-heartbeat/issues"
+  },
+  "homepage": "https://github.com/Bairstow/trinity-heartbeat#readme",
+  "dependencies": {
+    "netcat": "^1.3.2",
+    "speedtest-net": "^1.3.1"
+  }
+}
